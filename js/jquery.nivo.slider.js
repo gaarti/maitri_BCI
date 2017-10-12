@@ -640,7 +640,7 @@
         boxCols: 8,
         boxRows: 4,
         animSpeed: 500,
-        pauseTime: 1000,
+        pauseTime: 2000,
         startSlide: 0,
         directionNav: true,
         controlNav: true,
