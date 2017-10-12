@@ -1,3 +1,9 @@
+// Recent Work Slider
+   
+$(window).load(function() {
+$('#slider').nivoSlider();
+});
+
 $(document).ready(function() {
 
 	$(".fix_menu").on('click', function() {
@@ -22,13 +28,12 @@ $(document).ready(function() {
     	menu = target;
     	$target = $(target);
     	$('html, body').stop().animate({
-    		'scrollTop': $target.offset().top + -200
+    		'scrollTop': $target.offset().top + -50
     	}, 2000, 'swing', function() {
     		// window.location.hash = target;
     		$(document).on("scroll", onScroll);
     	});
     });
-
 });
 
 function onScroll(event) {
@@ -44,3 +49,5 @@ function onScroll(event) {
 		}
 	});
 }
+
+
